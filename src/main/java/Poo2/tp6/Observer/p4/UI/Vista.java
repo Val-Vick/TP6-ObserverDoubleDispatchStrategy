@@ -58,11 +58,7 @@ public class Vista extends JFrame {
 		JButton botonCargar = new JButton("Cargar");
 		botonCargar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				try {
-					onBotonCargar();
-				} catch (SQLException e1) {
-					throw new RuntimeException(e1);
-				}
+				onBotonCargar();
 			}
 		});
 		contentPane.add(botonCargar);

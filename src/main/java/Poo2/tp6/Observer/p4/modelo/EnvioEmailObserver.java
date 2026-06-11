@@ -6,6 +6,6 @@ public class EnvioEmailObserver implements ObserverInscripcion {
 		System.out.println("ENVIANDO EMAIL DE CONFIRMACION");
 		System.out.println("Para: " + participante.getEmail());
 		System.out.println("Estimado/a " + participante.getNombre() + ",");
-		System.out.println("Confirmamos que tu inscripción ha sido procesada con éxito.");
+		System.out.println("Confirmamos que tu inscripcion ha sido procesada con exito.");
 	}
 }
